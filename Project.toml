@@ -2,3 +2,6 @@ name = "MyPackage"
 uuid = "742b3dd8-acad-11e9-0827-e3aaf7aff358"
 authors = ["Joris Kraak <me@joriskraak.nl>"]
 version = "0.1.0"
+
+[deps]
+Distances = "b4f34e82-e78d-54a5-968a-f98e89d6e8f7"
