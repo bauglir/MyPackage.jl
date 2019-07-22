@@ -1,4 +1,7 @@
+using Dates: now
+
 println("Building package MyPackage")
-open("hello.txt", "w") do io
-  println(io, "Hello JuliaCon 2019!")
+
+open("build_time.log", "w") do io
+  print(io, now())
 end
